@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+    <h2>Regular Expression in DOM</h2>
+</head>
+<body>
+    <p id="regex">Welcome to ineuron , this is full stack blockchain development</p>
+    <script>
+        let text = "Welcome to ineuron , this is full stack blockchain development";
+        //let index = text.search("development");
+        //document.getElementById("regex").innerHTML=index;
+        //document.write(n);
+
+        function replaceText(){
+            let text = document.getElementById("regex").innerHTML;
+            document.getElementById("regex").innerHTML = text.replace("blockchain" , "javascript");        
+        }
+    </script>
+    <button onclick="replaceText()">Try the button</button>
+</body>
+</html>
+
+// what is closure in java script

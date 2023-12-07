@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM Functions</h1>
+    <script type="text/javascript">
+        //function addition(a,b){
+          //  let sum = a + b;
+            //return sum;
+        //}
+        //let output = addition(10,15);
+        //document.write("<h1> the output of addition is :- "+output+"</h1>");
+
+        // Factorial of a number
+
+        function factorial(a){
+            let fact = 1;
+            for(let i = 1 ; i<=a ; i++){
+                fact = fact*i;
+            }
+            return fact;
+        }
+        let a = 5;
+        let fact = factorial(a);
+        document.write("<h1> factorial of " + a + " is"+fact+"</h1>");
+    </script>
+</body>
+</html>

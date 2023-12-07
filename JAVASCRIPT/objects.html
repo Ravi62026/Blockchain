@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Objects</h1>
+    <script type="text/javascript">
+        let car={
+            car_brandName : "Hyundai",
+            car_name : "Creta",
+            car_engine : "V8",
+            car_YOM : "2022",
+            car_price : "15Lakh",
+            car_colours : "White",
+            electric : function(){
+                return "<p> the car is not an electric vehicle</p>"
+            }
+        };
+        document.write("<h2>"+car.electric()+"</h2>");
+    </script>
+</body>
+</html>
