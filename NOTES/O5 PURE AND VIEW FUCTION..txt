@@ -1,0 +1,38 @@
+				  PURE AND VIEW					      
+*************************************************************************************
+-> pure and view we use to reduce the gas cost .
+view -> we can read the state the variable , not modified the state variabl .
+
+1. gas cost reduce .
+
+if function is not as view -> some malicious person can change the state variable by finding some loop hole .
+it has happened in blockchain , people who are using external smart contract .
+
+2. security .
+
+one smart contract also call the other smart contract .
+view use when , c require only data for viw purpose .
+pure -> when we dont want any other purpose cant be read and cant be modify the state variable .
+A smart contract call by a person as well as another smart contract .
+
+Note :-
+view function declares that no state variable will be changed .
+view function declares that no state variable will be changed or read .
+data hiding -> abstrsction .
+view -> partial  abstraction .
+pure -> complte abstraction .
+
+pure use -> when we not read the state or store on blockchain . it decreases the gas cost .
+
+Gas cost only when called by a contract .
+When we call pure and view by any personal / human account no gas cost required .
+
+deploy by 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2   this account store byte code or opcode .
+call by 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db  =. gas will not be used in this cas .
+
+gas will only charge when we modify some value .
+
+
+
+
+
